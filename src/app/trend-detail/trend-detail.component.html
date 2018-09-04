@@ -1,0 +1,10 @@
+<div *ngIf="trend">
+  <h2>{{trend.name }} Details</h2>
+  <div><span>Description: </span>{{trend.description}}</div>
+  <div>
+    <label>Name:
+      <input [(ngModel)]="trend.name" placeholder="name">
+    </label>
+  </div>
+  <div><span>Stage: </span>{{trend.trend_stage}}</div>
+  </div>
