@@ -1,10 +1,18 @@
-<div *ngIf="trend">
+<!--<div *ngIf="trend">
   <h2>{{trend.name }} Details</h2>
-  <div><span>Description: </span>{{trend.description}}</div>
-  <div>
-    <label>Name:
-      <input [(ngModel)]="trend.name" placeholder="name">
-    </label>
-  </div>
-  <div><span>Stage: </span>{{trend.trend_stage}}</div>
+  <div><span></span>{{trend.description}}</div>
+ <div><span>Stage: </span>{{trend.trend_stage}}</div>
+  </div>-->
+
+  
+  <div class="card border-warning mb-3 " style="width: 18rem;">
+      <div class="card-body">
+          <div *ngIf="trend">
+        <h5 class="card-title">{{trend.name}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Description</h6>
+        <p class="card-text">{{trend.description}}</p>
+        <a href="#" class="card-link" class="btn btn-primary">More Info</a>
+  
+      </div>
+    </div>
   </div>

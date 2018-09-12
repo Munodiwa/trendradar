@@ -9,7 +9,18 @@ import { RadarComponent } from './radar/radar.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
+import { RouterModule, Routes } from '@angular/router';
+import { NotFoundComponent } from './not-found-component/not-found-component.component';
 
+const appRoutes: Routes = [
+  {path: 'dashboard', component: RadarComponent },
+  {path: 'trends',
+   component: TrendsComponent,
+   data:{title: 'Trends List'}},
+  {path: 'about', component: AboutComponent},
+   {path:'***', component: NotFoundComponent}
+   
+]
 
 @NgModule({
   declarations: [
@@ -19,12 +30,17 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     RadarComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(
+      appRoutes,
+      {enableTracing: true}
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]

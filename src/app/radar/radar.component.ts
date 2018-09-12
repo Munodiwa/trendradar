@@ -45,6 +45,54 @@ export class RadarComponent implements OnInit {
                                 //  0 = not moved (circle)
                                 //  1 = moved in  (triangle pointing up)
         },
+        {
+          label:"Speech Recognition",
+          quadrant:3,
+          ring:3,
+          moved:1
+        },
+        {
+          label:"Machine Learning",
+          quadrant:3,
+          ring:3,
+          moved:1
+        },
+        {
+          label:"AI Optimized Hardware",
+          quadrant:0,
+          ring:3,
+          moved:1
+        },
+        {
+          label:"Decision Management",
+          quadrant:3,
+          ring:3,
+          moved:1
+        },
+        {
+          label:"Deep Learning Platforms",
+          quadrant:3,
+          ring:3,
+          moved:1
+        },
+        {
+          label:"Biometrics",
+          quadrant:3,
+          ring:3,
+          moved:1
+        },
+        {
+          label:"Robotic Process Animation",
+          quadrant:3,
+          ring:2,
+          moved:1
+        },
+        {
+          label:"Text Analytics and NLP",
+          quadrant:3,
+          ring:3,
+          moved:1
+        }
       ]
     });
   }

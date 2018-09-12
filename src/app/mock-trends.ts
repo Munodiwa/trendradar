@@ -1,14 +1,14 @@
 import { Trend } from './trend';
 
 export const TRENDS: Trend[]=[
-    {name: 'Speech Recognition', description: '', trend_stage: 'Collection'},
+    {name: 'Speech Recognition', description: 'Transcribe and transform human speech into format useful for computer applications. Currently used in interactive voice response systems and mobile applications. Sample vendors: NICE, Nuance Communications, OpenText, Verint Systems.', trend_stage: 'Collection'},
     {name: 'Virtual Agents', description: 'Transcribe and transform human speech into format useful for computer applications. Currently used in interactive voice response systems and mobile applications. Sample vendors: NICE, Nuance Communications, OpenText, Verint Systems', trend_stage: 'Accessed'},
-    {name: 'Machine Learning Platforms', description: '', trend_stage: 'Collection'},
-    {name: 'AI Optimized Hardware', description: '', trend_stage: 'Collection'},
-    {name: 'Decision Management', description: '', trend_stage: 'Collection'},
-    {name: 'Deep Learning Platforms', description: '', trend_stage: 'Collection'},
-    {name: 'Biometrics', description: '', trend_stage: 'Collection'},
-    {name: 'Robotic Process Automation', description: '', trend_stage: 'Accessed'},
-    {name: 'Text Analytics and NLP', description: '', trend_stage: 'Accessed'}
+    {name: 'Machine Learning Platforms', description: 'Providing algorithms, APIs, development and training toolkits, data, as well as computing power to design, train, and deploy models into applications, processes, and other machines. Currently used in a wide range of enterprise applications, mostly `involving prediction or classification. Sample vendors: Amazon, Fractal Analytics, Google, H2O.ai, Microsoft, SAS, Skytree.', trend_stage: 'Collected'},
+    {name: 'AI Optimized Hardware', description: 'Graphics processing units (GPU) and appliances specifically designed and architected to efficiently run AI-oriented computational jobs. Currently primarily making a difference in deep learning applications. Sample vendors: Alluviate, Cray, Google, IBM, Intel, Nvidia.', trend_stage: 'Collection'},
+    {name: 'Decision Management', description: 'Engines that insert rules and logic into AI systems and used for initial setup/training and ongoing maintenance and tuning. A mature technology, it is used in a wide variety of enterprise applications, assisting in or performing automated decision-making. Sample vendors: Advanced Systems Concepts, Informatica, Maana, Pegasystems, UiPath.', trend_stage: 'Collected'},
+    {name: 'Deep Learning Platforms', description: 'A special type of machine learning consisting of artificial neural networks with multiple abstraction layers. Currently primarily used in pattern recognition and classification applications supported by very large data sets. Sample vendors: Deep Instinct, Ersatz Labs, Fluid AI, MathWorks, Peltarion, Saffron Technology, Sentient Technologies.', trend_stage: 'Collection'},
+    {name: 'Biometrics', description: 'Enable more natural interactions between humans and machines, including but not limited to image and touch recognition, speech, and body language. Currently used primarily in market research. Sample vendors: 3VR, Affectiva, Agnitio, FaceFirst, Sensory, Synqera, Tahzoo.', trend_stage: 'Collection'},
+    {name: 'Robotic Process Automation', description: 'Using scripts and other methods to automate human action to support efficient business processes. Currently used where it’s too expensive or inefficient for humans to execute a task or a process. Sample vendors: Advanced Systems Concepts, Automation Anywhere, Blue Prism, UiPath, WorkFusion.', trend_stage: 'Accessed'},
+    {name: 'Text Analytics and NLP', description: 'Natural language processing (NLP) uses and supports text analytics by facilitating the understanding of sentence structure and meaning, sentiment, and intent through statistical and machine learning methods. Currently used in fraud detection and security, a wide range of automated assistants, and applications for mining unstructured data. Sample vendors: Basis Technology, Coveo, Expert System, Indico, Knime, Lexalytics, Linguamatics, Mindbreeze, Sinequa, Stratifyd, Synapsify.', trend_stage: 'Accessed'}
 
 ]
