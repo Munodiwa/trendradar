@@ -40,7 +40,7 @@ export class RadarComponent implements OnInit {
        {
           label: "Virtual Agent",
           quadrant: 3,          // 0,1,2,3 (counting clockwise, starting from bottom right)
-          ring: 1,              // 0,1,2,3 (starting from inside)
+          ring: 0,              // 0,1,2,3 (starting from inside)
           moved: 1             // -1 = moved out (triangle pointing down)
                                 //  0 = not moved (circle)
                                 //  1 = moved in  (triangle pointing up)
@@ -73,13 +73,13 @@ export class RadarComponent implements OnInit {
           label:"Deep Learning Platforms",
           quadrant:3,
           ring:3,
-          moved:1
+          moved:0
         },
         {
           label:"Biometrics",
           quadrant:3,
           ring:3,
-          moved:1
+          moved:0
         },
         {
           label:"Robotic Process Animation",
@@ -92,7 +92,229 @@ export class RadarComponent implements OnInit {
           quadrant:3,
           ring:3,
           moved:1
-        }
+        },
+        {
+          label:"AI for Everybody",
+          quadrant:3,
+          ring:3,
+          moved:0
+        },
+        {
+          label:"Deep Learning Theory",
+          quadrant:3,
+          ring:3,
+          moved:0
+        },
+        {
+          label:"Deep Reinforcement Learning",
+          quadrant:3,
+          ring:3,
+          moved:1 
+        },
+        {
+          label:"Generative Adversarial Networks",
+          quadrant:3,
+          ring:3,
+          moved:1 
+        },
+        {
+          label:"Lean and Augmented Data Learning",
+          quadrant:3,
+          ring:3,
+          moved:1 
+        },
+        {
+          label:"Probabilistic Programming",
+          quadrant:3,
+          ring:3,
+          moved:0
+        },
+        {
+          label:"Hybrid Learning Models",
+          quadrant:3,
+          ring:3,
+          moved:0
+        },
+        {
+          label:"Automated Machine Learning",
+          quadrant:3,
+          ring:3,
+          moved:0
+        },
+        {
+          label:"Ethereum",
+          quadrant:2,
+          ring:2,
+          moved:1 
+        },
+        {
+          label:"Hyperledger",
+          quadrant:2,
+          ring:2,
+          moved:1 
+        },
+        {
+          label:"IOTA - The Tangle",
+          quadrant:2,
+          ring:2,
+          moved:1 
+        },
+        {
+          label:"Multichain",
+          quadrant:2,
+          ring:2,
+          moved:1 
+        },
+        {
+          label:"Digital Twin",
+          quadrant:2,
+          ring:3,
+          moved:0
+        },
+        {
+          label:"Explainable AI",
+          quadrant:3,
+          ring:3,
+          moved:1 
+        },
+        {
+          label:"Capsule Networks",
+          quadrant:3,
+          ring:3,
+          moved:0
+        },
+        {
+          label:"Sensing City",
+          quadrant:0,
+          ring:3,
+          moved:0
+        },
+        {
+          label:"Computer Vision",
+          quadrant:3,
+          ring:3,
+          moved:0
+        },
+        {
+          label:"Cardano",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"Enigma",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"Hashgraph",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"Paxos",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"Raft",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"EOS",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"Basic Attention Token",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"Nomadic Blockchain",
+          quadrant:2,
+          ring:0,
+          moved:0 
+        },
+        {
+          label:"Digital Identity and access management using Blockchain",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"Physical Access Control via Blockchain",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"Blockchain in Supply Chain Management",
+          quadrant:2,
+          ring:0,
+          moved:0 
+        },
+        {
+          label:"Blockchain for IoT",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"Zero Knowledge Proof with Blockchain",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"Trusted Timestamping",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"Peer to Peer marketplaces",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"Blockchain backed financial services",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"Digital Asset Markup Language DAML",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"Prediction Markets",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"Token Curated Registries",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
+        {
+          label:"ECR 721",
+          quadrant:2,
+          ring:3,
+          moved:0 
+        },
       ]
     });
   }

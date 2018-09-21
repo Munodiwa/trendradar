@@ -5,14 +5,16 @@
   </div>-->
 
   
-  <div class="card border-warning mb-3 " style="width: 18rem;">
+  <div style="width: 18rem;">
+    <span class="border border-black">
       <div class="card-body">
           <div *ngIf="trend">
         <h5 class="card-title">{{trend.name}}</h5>
         <h6 class="card-subtitle mb-2 text-muted">Description</h6>
         <p class="card-text">{{trend.description}}</p>
         <a href="#" class="card-link" class="btn btn-primary">More Info</a>
-  
+        
       </div>
     </div>
+  </span>
   </div>
